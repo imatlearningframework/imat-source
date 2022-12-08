@@ -1,0 +1,14 @@
+opam-version: "2.0"
+version: "1.2.0"
+authors: "Anonymous"
+maintainer: "Anonymous"
+synopsis: "Z3 wrapper"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "bignum"
+  "ocaml"
+  "menhir"
+  "dune" {build}
+]

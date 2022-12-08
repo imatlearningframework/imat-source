@@ -1,0 +1,3 @@
+module FInt : Nfa.State with type t = int
+
+include Nfa.N with type state = int
